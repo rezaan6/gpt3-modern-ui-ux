@@ -3,14 +3,9 @@
 ## Table of Contents
 
 - [Description](#description)
-  - [Client](#client)
-  - [Server](#server)
 - [Tech Stack](#tech-stack)
-- [Features](#features-wait-until-gifs-load)
-- [TMDB API](#tmdb-api)
-- [Format Configuration](#format-configuration)
+- [Overview](#overview-wait-until-gifs-load)
 - [Folder Structure](#folder-structure)
-- [Environment Variables](#environment-variables)
 
 ## Description
 
@@ -29,7 +24,7 @@ Overall, this project aims to demonstrate how modern UI/UX design principles, al
 - [BEM Styling](https://getbem.com/introduction/)
 - [Vercel](https://vercel.com/docs)
 
-## Overview
+## Overview (wait until GIFs load)
 
 ![OverView](https://user-images.githubusercontent.com/72515147/226180166-b0f600cf-9297-4166-9152-d97452f30ffc.gif)
 
