@@ -9,11 +9,11 @@
 
 ## Description
 
-The goal of this project is to create a modern UI/UX landing page centered around the theme of GPT-3. The website will be built using Next.js, a popular React-based framework for building server-side rendered applications. The website will feature a clean and intuitive user interface that showcases the capabilities of GPT-3 and highlights its potential use cases.
+A modern UI/UX landing page centered around the theme of GPT-3. The website will be built using Next.js, a popular React-based framework for building server-side rendered applications. Features a clean and intuitive user interface that showcases the capabilities of GPT-3 and highlights its potential use cases.
 
-The website will be designed using BEM (Block Element Modifier) methodology for CSS styling. This methodology aims to improve the maintainability and scalability of CSS by creating modular and reusable stylesheets that are easy to read and understand. BEM encourages the use of descriptive class names that reflect the purpose of the CSS rule, making it easier to understand how different elements are related and how they interact with each other.
+Designed using BEM (Block Element Modifier) methodology for CSS styling. This methodology aims to improve the maintainability and scalability of CSS by creating modular and reusable stylesheets that are easy to read and understand. BEM encourages the use of descriptive class names that reflect the purpose of the CSS rule, making it easier to understand how different elements are related and how they interact with each other.
 
-Finally, the website will be deployed to Vercel, a cloud-based platform for deploying and hosting websites and applications. Vercel provides an easy-to-use interface for deploying Next.js applications, as well as a range of other features such as custom domains, HTTPS support, and automatic scaling.
+Finally, deployed to Vercel, a cloud-based platform for deploying and hosting websites and applications. Vercel provides an easy-to-use interface for deploying Next.js applications, as well as a range of other features such as custom domains, HTTPS support, and automatic scaling.
 
 Overall, this project aims to demonstrate how modern UI/UX design principles, along with cutting-edge technologies like Next.js and BEM, can be used to create a stunning and effective landing page that showcases the capabilities of GPT-3.
 
