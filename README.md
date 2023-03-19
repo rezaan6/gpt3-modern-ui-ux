@@ -1,38 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GPT3 Modern Landing Page
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Description](#description)
+  - [Client](#client)
+  - [Server](#server)
+- [Tech Stack](#tech-stack)
+- [Features](#features-wait-until-gifs-load)
+- [TMDB API](#tmdb-api)
+- [Format Configuration](#format-configuration)
+- [Folder Structure](#folder-structure)
+- [Environment Variables](#environment-variables)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Description
+
+The goal of this project is to create a modern UI/UX landing page centered around the theme of GPT-3. The website will be built using Next.js, a popular React-based framework for building server-side rendered applications. The website will feature a clean and intuitive user interface that showcases the capabilities of GPT-3 and highlights its potential use cases.
+
+The website will be designed using BEM (Block Element Modifier) methodology for CSS styling. This methodology aims to improve the maintainability and scalability of CSS by creating modular and reusable stylesheets that are easy to read and understand. BEM encourages the use of descriptive class names that reflect the purpose of the CSS rule, making it easier to understand how different elements are related and how they interact with each other.
+
+Finally, the website will be deployed to Vercel, a cloud-based platform for deploying and hosting websites and applications. Vercel provides an easy-to-use interface for deploying Next.js applications, as well as a range of other features such as custom domains, HTTPS support, and automatic scaling.
+
+Overall, this project aims to demonstrate how modern UI/UX design principles, along with cutting-edge technologies like Next.js and BEM, can be used to create a stunning and effective landing page that showcases the capabilities of GPT-3.
+
+## Tech Stack
+
+- [React](https://reactjs.org/)
+- [Nextjs](https://nextjs.org/)
+- [BEM Styling](https://getbem.com/introduction/)
+- [Vercel](https://vercel.com/docs)
+
+## Overview
+
+![OverView](https://user-images.githubusercontent.com/72515147/226180166-b0f600cf-9297-4166-9152-d97452f30ffc.gif)
+
+## Folder Structure
 ```
+.
+|-- README.md        
+|-- next-env.d.ts    
+|-- next.config.js   
+|-- package-lock.json
+|-- package.json     
+|-- public
+|   |-- next.svg     
+|   |-- thirteen.svg 
+|   `-- vercel.svg
+|-- src
+|   |-- app
+|   |   |-- api
+|   |   |   `-- hello       
+|   |   |       `-- route.ts
+|   |   |-- favicon.ico     
+|   |   |-- globals.css     
+|   |   |-- layout.tsx
+|   |   `-- page.tsx
+|   |-- assets
+|   |   |-- ai.png
+|   |   |-- atlassian.png
+|   |   |-- blog01.png
+|   |   |-- blog02.png
+|   |   |-- blog03.png
+|   |   |-- blog04.png
+|   |   |-- blog05.png
+|   |   |-- dropbox.png
+|   |   |-- google.png
+|   |   |-- logo.png
+|   |   |-- logo.svg
+|   |   |-- people.png
+|   |   |-- possibility.png
+|   |   |-- shopify.png
+|   |   `-- slack.png
+|   |-- components
+|   |   |-- article
+|   |   |   |-- Article.tsx
+|   |   |   `-- article.css
+|   |   |-- brand
+|   |   |   |-- Brand.tsx
+|   |   |   |-- brand.css
+|   |   |   `-- imports.js
+|   |   |-- cta
+|   |   |   |-- CTA.tsx
+|   |   |   `-- cta.css
+|   |   |-- feature
+|   |   |   |-- Feature.tsx
+|   |   |   `-- feature.css
+|   |   |-- index.js
+|   |   `-- navbar
+|   |       |-- Navbar.tsx
+|   |       `-- navbar.css
+|   |-- containers
+|   |   |-- blog
+|   |   |   |-- Blog.tsx
+|   |   |   |-- blog.css
+|   |   |   `-- imports.js
+|   |   |-- features
+|   |   |   |-- Features.tsx
+|   |   |   `-- features.css
+|   |   |-- footer
+|   |   |   |-- Footer.tsx
+|   |   |   `-- footer.css
+|   |   |-- header
+|   |   |   |-- Header.tsx
+|   |   |   `-- header.css
+|   |   |-- index.js
+|   |   |-- possibility
+|   |   |   |-- Possibility.tsx
+|   |   |   `-- possibility.css
+|   |   `-- whatGPT3
+|   |       |-- WhatGPT3.tsx
+|   |       `-- whatGPT3.css
+|   `-- logo.svg
+`-- tsconfig.json
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
